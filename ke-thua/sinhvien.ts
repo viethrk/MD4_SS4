@@ -37,8 +37,9 @@ class SinhVien extends Person {
   public demo(): number;
 
   public demo(a: number): number;
+  public demo(a: string): number;
 
-  public demo(a?: number): number {
+  public demo(a?: number | string): number {
     return 0;
   }
 }
